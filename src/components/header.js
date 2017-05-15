@@ -20,8 +20,8 @@ import {Link} from 'react-router';
                                     <div className="header__right">
                                         <ul>
                                           
-                                            <li><a>Blog</a></li>
-                                            <li><a>Contact</a></li>
+                                            <li><Link to={"/blog"}>Blog</Link></li>
+                                            <li><Link to={"/contact"}>Contact</Link></li>
                                             </ul>
                                         </div>
                             </div>
